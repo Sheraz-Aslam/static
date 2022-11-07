@@ -1,2 +1,4 @@
 let heading = document.getelementbyID('heading')
-heading.innerHTML =`Dynamic Websites Here!`
+heading.addEventListener("click",function(){
+    heading.innerHTML =`Dynamic Websites Here!`
+})
